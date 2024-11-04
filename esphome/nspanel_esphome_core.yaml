@@ -1594,7 +1594,7 @@ sensor:
     samples: 4
     update_interval: 10s
     filters:
-      - sliding_window_moving_average:
+      - median:
           window_size: 6
           send_every: 1
 
