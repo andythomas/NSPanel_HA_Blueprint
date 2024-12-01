@@ -1591,7 +1591,7 @@ sensor:
     platform: adc
     pin: 38
     attenuation: 12db
-    samples: 12
+    samples: 64
     update_interval: 10s
     filters:
       - median:
